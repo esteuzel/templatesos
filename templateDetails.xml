@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.0" type="template" client="site" method="upgrade">
+		<name>sos</name>
+		<creationDate>6 Oct 2017</creationDate>
+		<author>este8an</author>
+		<authorEmail>fabiouz@gmail.com</authorEmail>
+		<authorUrl>http://deelo.com</authorUrl>
+		<copyright>Copyright (C) 2007 - 2013 deelo. All rights reserved.</copyright>
+		<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+		<version>3.0</version>
+		<description>
+				<![CDATA[						
+						<h4>Full Responsive Joomla Template </h4>
+						
+						<p>We present to you a dazzling first from us – a FREE responsive template from GavickPro!</p>
+						
+						<p>It is always a challenge coming up with a new template to suit the unique needs of our customers. We've certainly accomplished this goal. At no cost, with this template produce a breathtaking Web site that will catch your visitors' attention. Thanks to the Gavern Framework upon which this template is based, the specifications of Responsive Web Design have been implemented.</p>
+						
+						<p>We have thrown in support for the Tabs GK5 module with native support for horizontal layout scaling based upon the type of device display. In addition, this responsive template supports the modified News Show Pro GK4 extension and the K2 component which enables information to be displayed in attractive and unique ways.</p>
+						
+						<p>Even more, this free template supports the mooMasonry script which blocks modules to be positioned such that the available space is optimized for the target device.</p>						
+						]]>
+		</description>
+		<files>
+				<filename>analyticstracking.php</filename>
+				<filename>component.php</filename>
+				<filename>error.php</filename>
+				<filename>contact.php</filename>
+				<filename>index.php</filename>
+				<filename>offline.php</filename>
+				<filename>templateDetails.xml</filename>				
+				<folder>css</folder>
+				<folder>html</folder>
+				<folder>images</folder>
+				<folder>js</folder>
+				<folder>framework</folder>
+				<folder>libs</folder>		
+		</files>
+		<positions>
+				<!-- Template specific Module Positions -->
+
+				<position>navmenu</position>	
+				<position>topsearch</position>	
+				<position>topfeatured</position>	
+				<position>right</position>
+				<position>footer</position>
+				
+				<!-- STANDARD Module Positions 
+				<position>breadcrumb</position>				
+				<position>toolbar</position>
+				<position>top_toolbar</position>
+				<position>login</position>
+				<position>footer_nav</position>
+				<position>lang</position>				
+				
+				
+				<position>mainbody</position>
+				<position>mainbody_top</position>
+				<position>mainbody_bottom</position>
+				<position>top</position>				
+				<position>bottom</position>	
+				-->			
+		</positions>
+		<languages folder="language">
+				<language tag="en-GB">en-GB.tpl_sos.ini</language>
+		</languages>
+		<config>
+				<fields name="params">
+						<!-- Basic settings -->
+						<fieldset name="BASIC_SETTINGS" addfieldpath="/templates/gk_music_free/admin/elements">
+								<field name="template_color" type="list" default="1" label="TPL_GK_LANG_TEMPLATE_COLOR" description="TPL_GK_LANG_TEMPLATE_COLOR_DESC">
+										<option value="1">TPL_GK_LANG_COLOR_1</option>
+										<option value="2">TPL_GK_LANG_COLOR_2</option>
+										<option value="3">TPL_GK_LANG_COLOR_3</option>
+								</field>								
+						</fieldset>					
+						
+				</fields>
+		</config>
+</extension>
